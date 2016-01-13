@@ -1,0 +1,53 @@
+
+html, body {
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    display: block;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-top: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.loading {
+    font-size: 2em;
+}
+
